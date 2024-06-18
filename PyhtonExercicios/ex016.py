@@ -7,4 +7,4 @@ sen = sin(rad)
 cos = cos(rad)
 tan = tan(rad)
 
-print('O valor do ângulo é: {} e seu seno: {}; cosseno: {}; tangente: {}'.format(ang, sen, cos, tan))
+print('O valor do ângulo é: {} e seu seno: {:.2f}; cosseno: {:.2f}; tangente: {:.2f}'.format(ang, sen, cos, tan))

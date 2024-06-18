@@ -5,5 +5,7 @@ cat_oposto = int(input('Digite um valor: '))
 cat_adjacente = int(input('Digite outro valor: '))
 hipotenusa = math.hypot(cat_oposto, cat_adjacente)
 
+'''hipotenusa = (cat_oposto**2 + cat_adjacente**2)**(1/2)'''
+
 print('O valor do catetos oposto e adjacente são, respectivamente, {} e {}'.format(cat_oposto, cat_adjacente))
 print('O valor da hipotenusa é {}'.format(hipotenusa))
